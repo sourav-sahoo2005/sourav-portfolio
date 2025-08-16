@@ -826,8 +826,8 @@ section {
 
 }
 
-#weather_img {
-    background-image: url(weather\ app.png);
+#spicyhub_img {
+    background-image: url(Spicyhub.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -866,23 +866,31 @@ section {
 }
 
 .proj_desc button {
-    height: 30px;
+    height: 35px;
     width: 100px;
     margin-top: 20px;
-    border-radius: 24px;
-    background-color: chartreuse;
-    font-weight: 600;
+    margin-right: 7px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0);
+    /* font-weight: 600; */
     cursor: pointer;
-    border: 1px solid black;
+    overflow: hidden;
+    border: 1.5px solid rgb(255, 255, 255);
     transition: all ease-in-out 0.25s;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.193);
 }
 .proj_desc button a{
+
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
     text-decoration: none;
-    color: #000000;
+    color: #62ff00;
 }
 
 .proj_desc button:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     transition: all ease-in-out 0.25s;
 }
 
