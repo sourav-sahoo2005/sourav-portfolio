@@ -226,6 +226,7 @@ section {
 
 
 }
+
 /* 
 .intro {
     width: 100%;
@@ -879,7 +880,8 @@ section {
     transition: all ease-in-out 0.25s;
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.193);
 }
-.proj_desc button a{
+
+.proj_desc button a {
 
     padding: 10px 20px;
     height: 100%;
@@ -909,6 +911,18 @@ section {
     /* gap: 50px; */
 }
 
+#contactinfo {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: auto;
+    gap: 10em;
+    margin-top: 5em;
+
+
+}
+
 #contact>span {
     font-size: 55px;
     margin-top: 40px;
@@ -917,13 +931,22 @@ section {
     filter: drop-shadow(0px 0px 60px aqua);
 }
 
-#contact>p {
-    margin: 30px 0px;
-    font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(237, 237, 237);
 
-    text-align: center;
+#contactinfo div p {
+    margin: 10px 0px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+
+    /* text-align: center; */
+    
+}
+#email a{
+    text-decoration:none ;
+    color: white;
+  
+
+
 }
 
 #emailForm {
@@ -1013,13 +1036,16 @@ section {
 }
 
 .social a {
-    color: grey;
+    /* color: grey; */
+    font-size: 30px;
+    color: white;
     text-decoration: none;
 }
 
 .social a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: white;
+    filter: drop-shadow(0px 0px 10px aqua);
     transition: all 0.2s ease-in-out;
 }
 
@@ -1113,7 +1139,7 @@ section {
 
     .btn {
         padding: 0% 25%;
-      flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     hr {
@@ -1213,7 +1239,7 @@ section {
     }
 
     .social {
-        flex-direction: column;
+        font-size:24px;
     }
 
 }
@@ -1303,5 +1329,11 @@ section {
         /* padding: 0%; */
 
     }
+
+    #emailForm {
+        display: none;
+    }
+
+
 
 }
