@@ -380,7 +380,7 @@ section {
     align-items: center;
     padding-top: 5%;
     padding-left: 0%;
-    padding-right: 10%;
+    padding-right: 0%;
     padding-bottom: 10%;
 
 }
@@ -1154,7 +1154,6 @@ section {
     .about {
         flex-direction: column;
         margin-top: 10px;
-        padding-right:0%;
         gap: 20px;
     }
 
